@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="font-Rubik box-border max-sm:p-2 dark:bg-primaryColor dark:text-white">
+  <header
+    class="container mx-auto top-0 flex justify-between items-center relative dark:bg-primaryColor dark:text-white">
+    <img class="max-md:w-[80px] max-md:h-[80px]" src="./dist/images/logo 1.png" alt="" />
+    <!-- nav -->
+    <nav class="flex items-center space-x-8 max-sm:hidden">
+      <ul class="flex items-center space-x-8 max-md:text-xs max-lg:text-sm max-xl:text-lg">
+        <li>
+          <a class="active text-primaryColor hover:text-blueColor uppercase font-medium tran dark:bg-primaryColor dark:text-white dark:hover:text-blueColor"
+            href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="text-primaryColor hover:text-blueColor uppercase font-medium tran dark:bg-primaryColor dark:text-white dark:hover:text-blueColor"
+            href="#about">About</a>
+        </li>
+        <li>
+          <a class="text-primaryColor hover:text-blueColor uppercase font-medium tran dark:bg-primaryColor dark:text-white dark:hover:text-blueColor"
+            href="#start">How To Start</a>
+        </li>
+        <li>
+          <a class="text-primaryColor hover:text-blueColor uppercase font-medium tran dark:bg-primaryColor dark:text-white dark:hover:text-blueColor"
+            href="#programs">Programs</a>
+        </li>
+        <li>
+          <a class="text-primaryColor hover:text-blueColor uppercase font-medium tran dark:bg-primaryColor dark:text-white dark:hover:text-blueColor"
+            href="#general-faqs">FAQs</a>
+        </li>
+      </ul>
+      <a class="px-24px py-12px bg-blueColor text-whiteColor font-semibold uppercase rounded-lg hover:bg-blueAltColor hover:text-blueColor tran max-sm:hidden max-md:text-xs max-md:px-12px max-md:py-[6px] max-lg:text-sm max-xl:text-lg"
+        href="#contact">contact</a>
+    </nav>
+    <!-- Small Screen -->
+    <i class="bx bx-menu text-3xl sm:hidden"></i>
+    <div class="menu hidden absolute w-full top-20">
+      <ul class="flex flex-col border border-grayAlt">
+        <li class="group text-md text-center bg-blueColor border-b border-grayAlt hover:bg-blueAltColor cursor-pointer">
+          <a class="text-whiteColor block p-12px hover:text-blueColor group-hover:text-primaryColor uppercase font-normal tran"
+            href="index.html">Home</a>
+        </li>
+        <li class="group text-md text-center bg-blueColor border-b border-grayAlt hover:bg-blueAltColor cursor-pointer">
+          <a class="text-whiteColor block p-12px hover:text-blueColor group-hover:text-primaryColor uppercase font-normal tran"
+            href="#about">About</a>
+        </li>
+        <li class="group text-md text-center bg-blueColor border-b border-grayAlt hover:bg-blueAltColor cursor-pointer">
+          <a class="text-whiteColor block p-12px hover:text-blueColor group-hover:text-primaryColor uppercase font-normal tran"
+            href="#start">How To Start</a>
+        </li>
+        <li class="group text-md text-center bg-blueColor border-b border-grayAlt hover:bg-blueAltColor cursor-pointer">
+          <a class="text-whiteColor block p-12px hover:text-blueColor group-hover:text-primaryColor uppercase font-normal tran"
+            href="#programs">Programs</a>
+        </li>
+        <li class="group text-md text-center bg-blueColor border-b border-grayAlt hover:bg-blueAltColor cursor-pointer">
+          <a class="text-whiteColor block p-12px hover:text-blueColor group-hover:text-primaryColor uppercase font-normal tran"
+            href="#general-faqs">FAQs</a>
+        </li>
+        <li class="group text-md text-center bg-blueColor hover:bg-blueAltColor cursor-pointer">
+          <a class="text-whiteColor block p-12px hover:text-blueColor group-hover:text-primaryColor uppercase font-normal tran"
+            href="#contact">contact</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!--- hero section-->
+  <section
+    class="container mx-auto flex justify-between gap-6 my-28 max-md:gap-4 max-md:flex-col dark:bg-primaryColor dark:text-white">
+    <div class="info w-1/2 flex flex-col justify-center max-md:w-full">
+      <h1
+        class="text-primaryColor text-6xl font-bold mb-10 max-lg:text-3xl max-md:text-1xl max-md:text-center dark:bg-primaryColor dark:text-white">
+        Virtual Internships, Real Tasks.
+      </h1>
+      <p
+        class="text-[#555] text-2xl mb-10 max-lg:text-xl max-md:text-lg max-md:text-center dark:bg-primaryColor dark:text-[#666]">
+        Intern2Grow is a virtual internship programs provider, where we offer
+        virtual internships with real tasks, here you can work on some real
+        projects to gain work experience, and be job-ready.
+      </p>
+      <div class="btn flex items-center space-x-6 text-lg max-md:justify-center max-md:space-x-3">
+        <a class="px-24px py-12px bg-blueColor text-whiteColor rounded-lg hover:bg-blueAltColor border-solid border-blueColor border-2 hover:border-blueAltColor hover:text-blueColor tran max-lg:px-12px max-lg:py-[6px] max-lg:text-sm"
+          href="#start">Apply now</a>
+        <a class="flex items-center justify-between px-24px py-12px bg-[#FFF] text-blueColor rounded-lg hover:bg-blueColor hover:text-whiteColor border-solid border-blueColor border-2 tran max-lg:px-12px max-lg:py-[6px] max-lg:text-sm dark:bg-primaryColor dark:hover:bg-blueColor"
+          href="#about">Learn more
+          <i class="bx bx-chevrons-down text-lg ml-1 max-md:text-sm"></i>
+        </a>
+      </div>
+    </div>
+    <div class="w-1/2 flex items-center justify-end max-md:justify-center max-md:w-full">
+      <img src="./dist/images/screening_personnel_17 1.svg" alt="" />
+    </div>
+  </section>
+  <!-- About us -->
+  <section id="about" class="container mx-auto my-28">
+    <div class="title relative">
+      <h2 class="text-primaryColor uppercase text-4xl font-bold pl-3 mb-10 max-md:text-2xl dark:text-white">
+        About Us
+      </h2>
+      <p class="text-[#555] text-xl mb-10 max-w-2xl max-md:text-lg dark:text-[#666]">
+        We are an organization that aims to offer virtual internship programs
+        to developers who want to enhance their knowledge and gain work
+        experience.
+      </p>
+      <img class="absolute left-0 -top-3 -z-10 max-md:w-14 filter" src="./dist/images/Ellipse 3.png" alt="" />
+    </div>
+    <div class="cards grid grid-cols-3 gap-5 max-sm:gap-3 max-md:grid-cols-2 max-sm:grid-cols-1">
+      <div
+        class="card flex flex-col gap-5 p-8 bg-[#FFF] rounded-2xl shadow-cardShadow dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="icon">
+          <i class="bx bxs-check-shield w-10 h-10 center-flex text-blueColor text-2xl bg-whiteColor rounded-full"></i>
+        </div>
+        <div class="info">
+          <h3 class="text-primaryColor font-bold text-2xl mb-4 dark:text-white">
+            Real Tasks
+          </h3>
+          <p class="text-[#555] text-lg dark:text-[#666]">
+            our virtual internship programs asks the intern developer to do
+            real tasks
+          </p>
+        </div>
+      </div>
+      <div
+        class="card flex flex-col gap-5 p-8 bg-[#FFF] rounded-2xl shadow-cardShadow dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="icon">
+          <i class="bx bxs-wallet w-10 h-10 center-flex text-blueColor text-2xl bg-whiteColor rounded-full"></i>
+        </div>
+        <div class="info">
+          <h3 class="text-primaryColor font-bold text-2xl mb-4 dark:text-white">Free</h3>
+          <p class="text-[#555] text-lg dark:text-[#666]">
+            you are not going to be asked to pay anything at the end of
+            internship.
+          </p>
+        </div>
+      </div>
+      <div
+        class="card flex flex-col gap-5 p-8 bg-[#FFF] rounded-2xl shadow-cardShadow dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="icon">
+          <i class="bx bxs-stopwatch w-10 h-10 center-flex text-blueColor text-2xl bg-whiteColor rounded-full"></i>
+        </div>
+        <div class="info">
+          <h3 class="text-primaryColor font-bold text-2xl mb-4 dark:text-white">
+            Available at anytime
+          </h3>
+          <p class="text-[#555] text-lg dark:text-[#666]">
+            you can easily apply and start any internship at anytime you
+            prefer.
+          </p>
+        </div>
+      </div>
+      <div
+        class="card flex flex-col gap-5 p-8 bg-[#FFF] rounded-2xl shadow-cardShadow dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="icon">
+          <i class="bx bx-copy-alt w-10 h-10 center-flex text-blueColor text-2xl bg-whiteColor rounded-full"></i>
+        </div>
+        <div class="info">
+          <h3 class="text-primaryColor font-bold text-2xl mb-4 dark:text-white">
+            Easy To Apply
+          </h3>
+          <p class="text-[#555] text-lg dark:text-[#666]">
+            you can easily apply with no need any papers about your
+            information.
+          </p>
+        </div>
+      </div>
+      <div
+        class="card flex flex-col gap-5 p-8 bg-[#FFF] rounded-2xl shadow-cardShadow dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="icon">
+          <i class="bx bx-wifi w-10 h-10 center-flex text-blueColor text-2xl bg-whiteColor rounded-full"></i>
+        </div>
+        <div class="info">
+          <h3 class="text-primaryColor font-bold text-2xl mb-4 dark:text-white">Remote</h3>
+          <p class="text-[#555] text-lg dark:text-[#666]">
+            you can join from anywhere around the world, anyone is allowed to
+            register
+          </p>
+        </div>
+      </div>
+      <div
+        class="card flex flex-col gap-5 p-8 bg-[#FFF] rounded-2xl shadow-cardShadow dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="icon">
+          <i class="bx bxs-party w-10 h-10 center-flex text-blueColor text-2xl bg-whiteColor rounded-full"></i>
+        </div>
+        <div class="info">
+          <h3 class="text-primaryColor font-bold text-2xl mb-4 dark:text-white">
+            Certificate
+          </h3>
+          <p class="text-[#555] text-lg dark:text-[#666]">
+            you will get a certificate of completion when you complete all
+            tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Starting -->
+  <section id="start" class="container mx-auto my-28">
+    <div class="title relative">
+      <h2 class="text-primaryColor uppercase text-4xl font-bold pl-3 mb-10 max-md:text-2xl dark:text-white">
+        How To Start
+      </h2>
+      <p class="text-[#555] text-xl mb-10 max-w-2xl max-md:text-lg dark:text-[#666]">
+        Follow these steps to start your virtual internship immediately:
+      </p>
+      <img class="absolute left-0 -top-3 -z-10 max-md:w-14" src="./dist/images/Ellipse 3.png" alt="" />
+    </div>
+    <div class="info center-flex">
+      <img src="./dist/images/How To Start.svg" alt="" />
+    </div>
+  </section>
+  <!-- Our Programs -->
+  <section id="programs" class="container mx-auto my-28">
+    <div class="title relative">
+      <h2 class="text-primaryColor uppercase text-4xl font-bold pl-3 mb-10 max-md:text-2xl dark:text-white">
+        Our Programs
+      </h2>
+      <p class="text-[#555] text-xl mb-10 max-w-2xl max-md:text-lg dark:text-[#666]">
+        We offer you many programs to test your skills and gain experience
+      </p>
+      <img class="absolute left-0 -top-3 -z-10 max-md:w-14" src="./dist/images/Ellipse 3.png" alt="" />
+    </div>
+    <div class="cards grid grid-cols-3 gap-5 relative max-sm:gap-3 max-lg:grid-cols-2 max-sm:grid-cols-1">
+      <div class="card shadow-cardShadow rounded-2xl dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="img relative">
+          <img class="w-full" src="./dist/images/yellow.png" alt="" />
+          <img class="absolute center-translate" src="./dist/images/Program_UI.png" alt="" />
+        </div>
+        <div class="p-24px">
+          <div class="flex space-x-5">
+            <div class="task flex items-center space-x-2">
+              <i class="bx bx-task text-gray text-xl w-9 h-9 center-flex bg-grayAlt rounded-full"></i>
+              <span class="text-lg text-gray">4 Tasks</span>
+            </div>
+            <div class="date flex items-center space-x-2">
+              <i class="bx bxs-calendar text-gray text-xl w-9 h-9 center-flex bg-grayAlt rounded-full"></i>
+              <span class="text-lg text-gray">1 Month</span>
+            </div>
+          </div>
+          <div class="info mt-4">
+            <h3 class="text-primaryColor font-bold text-2xl mb-2 dark:text-white">UX/UI Designer</h3>
+            <p class="text-grayText min-h-[100px] text-sm dark:text-[#666]">
+              Proficiency in design tools such as Figma or Adobe XD, and
+              strong understanding of user-centered design principles and best
+              practices in UI/UX design.
+            </p>
+          </div>
+          <div class="mt-4 mb-5">
+            <div class="w-full h-fit py-2">
+              <span class="bg-yellowAltColor text-yellowColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">UI
+                Design</span>
+              <span class="bg-yellowAltColor text-yellowColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">UX
+                Design</span>
+            </div>
+          </div>
+          <a class="px-24px py-12px block w-fit bg-blueColor text-whiteColor rounded-lg hover:bg-blueAltColor border-solid border-blueColor border-2 hover:border-blueAltColor hover:text-blueColor tran"
+            href="task-app.html">Apply now</a>
+        </div>
+      </div>
+      <div class="card shadow-cardShadow rounded-2xl dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="img relative">
+          <img class="w-full" src="./dist/images/red.png" alt="" />
+          <img class="absolute center-translate" src="./dist/images/Website Code.png" alt="" />
+        </div>
+        <div class="p-24px">
+          <div class="flex space-x-5">
+            <div class="task flex items-center space-x-2">
+              <i class="bx bx-task text-gray text-xl w-9 h-9 center-flex bg-grayAlt rounded-full"></i>
+              <span class="text-lg text-gray">4 Tasks</span>
+            </div>
+            <div class="date flex items-center space-x-2">
+              <i class="bx bxs-calendar text-gray text-xl w-9 h-9 center-flex bg-grayAlt rounded-full"></i>
+              <span class="text-lg text-gray">1 Month</span>
+            </div>
+          </div>
+          <div class="info mt-4">
+            <h3 class="text-primaryColor font-bold text-2xl mb-2 dark:text-white">Frontend Developer</h3>
+            <p class="text-grayText min-h-[100px] text-sm dark:text-[#666]">
+              Fix frontend related bugs and add new features to the website.
+            </p>
+          </div>
+          <div class="mt-4 mb-5">
+            <div class="w-full h-fit py-2">
+              <span
+                class="bg-redAltColor text-redColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">HTML</span>
+              <span class="bg-redAltColor text-redColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">CSS</span>
+              <span
+                class="bg-redAltColor text-redColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">JAVASCRIPT</span>
+            </div>
+          </div>
+          <a class="px-24px py-12px block w-fit bg-blueColor text-whiteColor rounded-lg hover:bg-blueAltColor border-solid border-blueColor border-2 hover:border-blueAltColor hover:text-blueColor tran"
+            href="task-app.html">Apply now</a>
+        </div>
+      </div>
+      <div class="card shadow-cardShadow rounded-2xl dark:bg-primaryColor dark:text-white dark:shadow-cardShadowDark">
+        <div class="img relative">
+          <img class="w-full" src="./dist/images/blue.png" alt="" />
+          <img class="absolute center-translate" src="./dist/images/mobile-development.png" alt="" />
+        </div>
+        <div class="p-24px">
+          <div class="flex space-x-5">
+            <div class="task flex items-center space-x-2">
+              <i class="bx bx-task text-gray text-xl w-9 h-9 center-flex bg-grayAlt rounded-full"></i>
+              <span class="text-lg text-gray">4 Tasks</span>
+            </div>
+            <div class="date flex items-center space-x-2">
+              <i class="bx bxs-calendar text-gray text-xl w-9 h-9 center-flex bg-grayAlt rounded-full"></i>
+              <span class="text-lg text-gray">1 Month</span>
+            </div>
+          </div>
+          <div class="info mt-4">
+            <h3 class="text-primaryColor font-bold text-2xl mb-2 dark:text-white">Mobile Developer</h3>
+            <p class="text-grayText min-h-[100px] text-sm dark:text-[#666]">
+              Convert UI/UX figma designs into fully functional mobile
+              applications.
+            </p>
+          </div>
+          <div class="mt-4 mb-5 overflow-x-auto">
+            <div class="w-full md:min-w-[350px] h-fit py-2">
+              <span
+                class="bg-purpleAltColor text-purpleColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">DART</span>
+              <span
+                class="bg-purpleAltColor text-purpleColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">JAVA</span>
+              <span
+                class="bg-purpleAltColor text-purpleColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">KOTLIN</span>
+              <span
+                class="bg-purpleAltColor text-purpleColor rounded-full p-2 text-base max-md:p-1 max-md:text-xs">REACT
+                NATIVE</span>
+            </div>
+          </div>
+          <a class="px-24px py-12px block w-fit bg-blueColor text-whiteColor rounded-lg hover:bg-blueAltColor border-solid border-blueColor border-2 hover:border-blueAltColor hover:text-blueColor tran"
+            href="task-app.html">Apply now</a>
+        </div>
+      </div>
+      <i
+        class="bx bx-chevron-left absolute -left-14 c-translate-y text-3xl text-gray bg-grayAlt rounded-full w-9 h-9 center-flex cursor-pointer tran hover:text-white hover:bg-blueColor max-sm:hidden max-lg:hidden"></i>
+      <i
+        class="active bx bx-chevron-right absolute -right-14 c-translate-y text-3xl text-gray bg-grayAlt rounded-full w-9 h-9 center-flex cursor-pointer tran hover:text-white hover:bg-blueColor max-sm:hidden max-lg:hidden"></i>
+    </div>
+    <a class="block text-primaryColor w-fit mx-auto mt-8 underline hover:text-blueColor dark:text-white dark:hover:text-blueColor"
+      href="programs.html">View all
+      Programs</a>
+  </section>
+  <!-- Questions And Answer -->
+  <section id="general-faqs" class="container mx-auto my-28">
+    <div class="title relative">
+      <h2 class="text-primaryColor uppercase text-4xl font-bold pl-3 mb-10 max-md:text-2xl dark:text-white">
+        General FAQs
+      </h2>
+      <p class="text-[#555] text-xl mb-10 max-w-2xl max-md:text-lg dark:text-[#666]">
+        Here you will find answers to some of the most commonly asked
+        questions about our virtual internship program.
+      </p>
+      <img class="absolute left-0 -top-3 -z-10 max-md:w-14" src="./dist/images/Ellipse 3.png" alt="" />
+    </div>
+    <div class="questions space-y-2">
+      <div class="space-y-1">
+        <div class="question cursor-pointer flex items-center justify-between p-24px text-primaryColor bg-whiteColor">
+          <h2 class="font-semibold text-2xl">What is Intern2grow ?</h2>
+          <i class="bx bx-plus font-semibold text-2xl hover:text-blueAltColor tran"></i>
+        </div>
+        <div class="answer hidden p-24px text-primaryColor bg-whiteColor leading-8 text-xl font-normal">
+          Intern2Grow is a virtual internship programs provider, where we
+          offer virtual internships with real tasks, here you can work on some
+          real projects to gain work experience, and be job-ready.
+        </div>
+      </div>
+      <div class="space-y-1">
+        <div class="question cursor-pointer flex items-center justify-between p-24px text-primaryColor bg-whiteColor">
+          <h2 class="font-semibold text-2xl">What is Intern2grow ?</h2>
+          <i class="bx bx-plus font-semibold text-2xl hover:text-blueAltColor tran"></i>
+        </div>
+        <div class="answer hidden p-24px text-primaryColor bg-whiteColor leading-8 text-xl font-normal">
+          Intern2Grow is a virtual internship programs provider, where we
+          offer virtual internships with real tasks, here you can work on some
+          real projects to gain work experience, and be job-ready.
+        </div>
+      </div>
+      <div class="space-y-1">
+        <div class="question cursor-pointer flex items-center justify-between p-24px text-primaryColor bg-whiteColor">
+          <h2 class="font-semibold text-2xl">What is Intern2grow ?</h2>
+          <i class="bx bx-plus font-semibold text-2xl hover:text-blueAltColor tran"></i>
+        </div>
+        <div class="answer hidden p-24px text-primaryColor bg-whiteColor leading-8 text-xl font-normal">
+          Intern2Grow is a virtual internship programs provider, where we
+          offer virtual internships with real tasks, here you can work on some
+          real projects to gain work experience, and be job-ready.
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Us -->
+  <section id="contact" class="container mx-auto my-28">
+    <div class="title relative">
+      <h2 class="text-primaryColor uppercase text-4xl font-bold pl-3 mb-10 max-md:text-2xl dark:text-white">
+        Contact Us
+      </h2>
+      <p class="text-[#555] text-xl mb-10 max-w-2xl max-md:text-lg dark:text-[#666]">
+        Feel free to contact us if you face a problem
+      </p>
+      <img class="absolute left-0 -top-3 -z-10 max-md:w-14" src="./dist/images/Ellipse 3.png" alt="" />
+    </div>
+    <div class="flex max-md:space-x-0 max-md:space-y-2 max-md:flex-col-reverse">
+      <div class="flex items-center img w-1/2 max-md:w-full max-md:justify-center">
+        <img class="" src="./dist/images/Email.svg" alt="" />
+      </div>
+      <form class="flex flex-col w-1/2 max-md:w-full">
+        <label class="font-semibold" for="name">Full Name</label>
+        <input class="focus:outline-none rounded-lg bg-whiteColor p-12px mt-2 mb-4 placeholder:text-placeholderColor"
+          id="name" type="text" placeholder="Ahmed Polat.." />
+        <label class="font-semibold" for="email">Email</label>
+        <input class="focus:outline-none rounded-lg bg-whiteColor p-12px mt-2 mb-4 placeholder:text-placeholderColor"
+          id="email" type="email" placeholder="me@example.com" />
+        <label class="font-semibold" for="message">Message</label>
+        <textarea
+          class="resize-none h-[250px] focus:outline-none rounded-lg bg-whiteColor p-12px mt-2 mb-4 placeholder:text-placeholderColor"
+          id="message" placeholder="Write your message here..."></textarea>
+        <button class="bg-blueColor text-whiteColor rounded-lg p-12px hover:bg-blueAltColor hover:text-blueColor tran"
+          type="submit">
+          Send
+        </button>
+      </form>
+    </div>
+  </section>
+  <footer class="border-t border-grayAlt dark:border-[#666]">
+    <div
+      class="container mx-auto flex justify-between items-center p-9 max-md:flex-col max-md:text-center max-md:gap-2">
+      <div class="logo flex items-center space-x-2">
+        <img src="./dist/images/logo 1.png" alt="" />
+        <h2 class="text-2xl text-primaryColor font-semibold dark:text-white">Intern2grow</h2>
+      </div>
+      <div>
+        <p class="text-primaryColor text-lg mb-4 dark:text-white">Copyright &copy; 2023 by Ahmed Polat.</p>
+        <div class="social flex justify-center items-center space-x-4">
+          <!-- Icon! -->
+          <a href="mailto:ahmedpolat2002@gmail.com">
+            <img class="" src="./dist/images/gmail-svgrepo-com 1.svg" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/ahmed-el-polat-4b8365243" target="_blank">
+            <img class="" src="./dist/images/linkedin.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./dist/Js/main.js"></script>
+  <script src="./dist/Js/generalFAQs.js"></script>
+</body>
+
+</html>

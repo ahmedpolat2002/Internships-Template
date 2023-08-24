@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    @apply scroll-smooth box-border;
+  }
+}
+
+@layer components {
+  .center-flex {
+    @apply flex justify-center items-center;
+  }
+}
+
+@layer components {
+  .center-translate {
+    @apply left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2;
+  }
+}
+
+@layer components {
+  .c-translate-y {
+    @apply top-1/2 -translate-y-1/2;
+  }
+}
+
+@layer components {
+  .tran {
+    @apply transition duration-300;
+  }
+}
+
+@layer components {
+  header nav ul li .active {
+    @apply text-blueColor dark:text-blueColor;
+  }
+}
+
+@layer components {
+  i.active {
+    @apply text-white bg-blueColor;
+  }
+}
+
+@layer components {
+  .question.active {
+    @apply text-blueColor;
+  }
+  .question.active i {
+    @apply rotate-45;
+  }
+}
+
+@layer components {
+  .dropdown .menu.active i {
+    @apply rotate-180;
+  }
+}
+
+/* Utilities */
+
+@layer utilities {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 15px;
+    height: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #3795cf;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a3dcff;
+  }
+}
